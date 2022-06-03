@@ -1,0 +1,113 @@
+.heading
+{
+  font-size : 30px;
+  font-family : 'Creepster', cursive;
+  width: 100%;
+  margin: 0px;
+  box-shadow:5px 5px 5px grey;
+}
+.heading_div
+{
+  font-size: 24px;
+  font-family:fantasy;
+  background: white ; 
+  border-radius: 20px; 
+  color: black;
+  float: none;
+  box-shadow:5px 5px 5px grey;
+}
+.heading_div2
+{
+  font-size: 18px ;
+}
+.result_para_tag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 20px;
+
+}
+
+.result_para_tag span{
+  white-space : pre-line;
+}
+
+.copy_right_footer {
+  position : fixed;
+  color: white;
+  background-color : grey;
+  bottom : 0;
+  width : 100%;
+  line-height : 3;
+  text-align: center;
+}
+
+#result1 {
+    background : honeydew;
+    border-width : 3px;
+    border-style: groove;
+   
+}
+
+#result2 {
+    background : rgb(176, 243, 255);
+    border-width : 3px;
+    border-top-style: groove;
+}
+
+#result3 {
+    background : rgb(252, 204, 227);
+    border-width : 3px;
+    border-top-style: groove;
+}
+
+
+}
+
+#conclude {
+    background : rgb(126, 240, 246);
+    border-width : 3px;
+    border-top-style: groove;
+
+}
+
+#img1 {
+  width: 200px;
+  border-radius: 10px;
+  border-style : solid;
+  border-color :rgba(36, 255, 178, 0.948);
+  border-width: 5px;
+}
+
+#img2 {
+  width: 200px;
+  border-radius: 10px;
+  border-style : solid;
+  border-color :rgb(92, 233, 255);
+  border-width: 5px;
+}
+
+#img3 {
+  width: 200px;
+  border-radius: 10px;
+  border-style : solid;
+  border-color:deeppink;
+  border-width: 5px;
+}
+
+#result_gl {
+  font-size: 17px;
+  font-family: cursive;
+  color:rgb(29, 133, 136)
+}
+
+#result_mn {
+  font-size: 17px;
+  font-family: cursive;
+  color:deeppink
+}
+
+#ans {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkblue;
+}

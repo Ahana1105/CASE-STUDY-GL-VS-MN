@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+    <center>
+        <h3 class="btn btn-primary heading"> WHICH IS MORE ACCURATE? <br> GOOGLE-LENS OR MOBILENET!
+            <hr>
+            <center>
+                <div class="heading_div col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    We are comparing MobileNet with Google-Lens in this model
+                    <br>
+
+                </div>
+            </center>
+            <br>
+        </h3>
+        <br><br>
+
+
+        <center>
+            <div id="result1">
+                <h4>Result-1</h4>
+                <img id="img1"
+                    src="https://th.bing.com/th/id/R.4ad2a43caf7e5c1e589bb19d0cfe8400?rik=dC5OSprDf8aYpQ&riu=http%3a%2f%2fluxorpen.com%2fimages%2fhl%2ftext-hl%2ftextmarker-green.jpg&ehk=Pwtwl1YETKPIBpGBwB9ocFsK14CUg86DK8Y%2blu%2bCMYs%3d&risl=&pid=ImgRaw&r=0">
+                <h4>ORIGINAL OBJECT : GREEN HIGHLIGHTER </h4>
+                <br>
+                <h5>Results got on:</h5>
+
+                <span id="result_gl"> Google-Lens : Luxor Green Highlighter</span>
+                <br>
+                <span id="result_mn">MobileNet : Ball Point Pen</span>
+                <br>
+                <br>
+                <h5 id="ans">Google Lens is more accurate.</h5>
+            </div>
+        </center>
+
+        <br>
+        <br>
+
+        <center>
+            <div id="result2">
+                <h4>Result-2</h4>
+                <img id="img2" src="https://th.bing.com/th/id/OIP.a_Iq7NSO4oOrZUI7EoMF1gHaHa?pid=ImgDet&rs=1">
+                <h4>ORIGINAL OBJECT : WATTER BOTTLE</h4>
+                <br>
+                <h5>Results got on:</h5>
+
+                <span id="result_gl"> Google-Lens : Bottle </span>
+                <br>
+                <span id="result_mn">MobileNet :Microphone</span>
+                <br>
+                <br>
+                <h5 id="ans">Google Lens is more accurate.</h5>
+            </div>
+        </center>
+
+
+        <br>
+        <br>
+
+        <center>
+            <div id="result3">
+                <h4>Result-3</h4>
+                <img id="img3" src="https://www.dogspot.in/shop/item-images/orignal/1355465835832.jpg">
+                <h4>ORIGINAL OBJECT : CAGE </h4>
+                <br>
+                <h5>Results got on:</h5>
+
+                <span id="result_gl"> Google-Lens : Cage</span>
+                <br>
+                <span id="result_mn">MobileNet : Box</span>
+                <br>
+                <br>
+                <h5 id="ans">Google Lens is more accurate.</h5>
+            </div>
+        </center>
+
+        
+
+
+        <br>
+        <br>
+
+        <center>
+            <h4>Hence, GOOGLE LENS is better and more accurate.</h4>
+        </center>
+
+        <div class="copy_right_footer">
+            Developed by Ahana
+        </div>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
